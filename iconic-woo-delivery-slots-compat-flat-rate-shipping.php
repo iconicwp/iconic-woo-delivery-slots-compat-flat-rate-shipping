@@ -18,7 +18,7 @@
  * @return bool
  */
 function iconic_compat_frs_is_active() {
-	return defined( 'AFRSM_PRO_PREMIUM_VERSION' );
+	return defined( 'AFRSM_PRO_PREMIUM_VERSION' ) || defined( 'AFRSM_PLUGIN_VERSION' );
 }
 
 /**
